@@ -6,7 +6,7 @@ const app = express();
 const PORT = 3000;
 
 app.get("/", (request, response) => {
-  response.send("This is a GET request at /");
+  response.json(data);
 });
 
 app.post("/create", (request, response) => {
@@ -23,5 +23,4 @@ app.delete("/delete", (request, response) => {
 
 app.listen(PORT, () => {
   console.log(`The server is running on port ${PORT}`);
-  console.log(data);
 });
