@@ -1,0 +1,22 @@
+{
+  "name": "express-essentials-course",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "An Express project built with the help of a LinkedIn course",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --experimental-json-modules --exec babel-node index.js"
+  },
+  "author": "Pedro Marchetti Casteli",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1",
+    "nodemon": "^3.1.11"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.28.3",
+    "@babel/core": "^7.28.5",
+    "@babel/node": "^7.28.0",
+    "@babel/preset-env": "^7.28.5"
+  }
+}
